@@ -13,14 +13,14 @@ public class Promedio {
       numero[i] = scanner.nextInt();
     }
     
-    int suma = 0;
+    int Restar = 0;
     for(int i=0; i<5; i++) {
-      suma += numero[i];
+      Restar += numero[i];
     }
     
-    double promedio = (double) suma / 5;
+    double promedio = (double) Restar/ 5;
     
-    System.out.println("La suma de los números es: " + suma);
+    System.out.println("La suma de los números es: " + Restar);
     System.out.println("El promedio de los números es: " + promedio);
     
   }
